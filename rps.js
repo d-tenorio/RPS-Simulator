@@ -1,4 +1,4 @@
-function rpsFight(choice, choice2){
+function rpsFight(choice, choice2) {
     if (choice === choice2) {
         return 'tie';
     }
@@ -11,7 +11,7 @@ function rpsFight(choice, choice2){
     if (choice === 'paper' && choice2 === 'rock') {
         return "player 1 wins";
     }
-    else  {
+    else {
         return "player 2 wins"
     }
 } 
