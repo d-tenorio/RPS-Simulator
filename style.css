@@ -41,6 +41,15 @@ body {
     text-align: center;
 }
 
+/* pseudo-class selector
+instead of being a type of element, it refers to
+the state of an element
+*/
+.button:hover {
+    background-color: green;
+}
+
+
 .title {
     font-size: 5rem;
 }
